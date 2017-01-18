@@ -1,0 +1,157 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#nav {
+	clear: both;
+	height: 70px;
+	width: 960px;
+	background-color: #ccc;
+	position: absolute;
+	margin-top: 20px;
+}
+
+#navname {
+	float: left;
+	height: 30px;
+	width: 150px;
+	background-color: #4aaaa5;
+	padding: 20px 4px 0 4px;
+	margin: 20px 0 0 150px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#photo {
+	float: left;
+	margin-left: 0px 0px 10px 0px;
+	padding-left: 10px 
+	width:150px; 
+	height:150px;
+}
+
+#text1 {
+	clear: both;
+	width: 90%;	
+	margin: 0 auto;
+	height: 3px;
+	background-color: #ccc;
+}
+
+#links {
+	float: right;
+	margin: 30px 330px 0px 150px;
+	color: black;
+}
+
+#mainsection {
+	clear: both;
+	float: left;
+	text-align: left;
+	height: 450px;
+	width: 650px;
+	margin: 110px 0px 30px 10px;
+	background-color: #ffffff; 
+}
+
+h1 {
+	margin-left: 30px;
+}
+
+.connect {
+	float: left;
+	width: 20px
+	height: 100px;
+	margin-left: 20px;
+	margin-top: 177px;
+	padding: 0 0 70px 0;
+	background-color: #ffffff;
+}
+
+#line {
+	clear: both;
+	width: 70%;	
+	margin: 0 auto;
+	margin-top: 0px;
+	height: 3px;
+	background-color: #ccc;
+}
+
+#linkdn {
+	float: left;
+	height: 30px;
+	width: 30px;
+	padding: 10px 10px 0 35px;
+}
+
+#github {
+	float: left;
+	height: 30px;
+	width: 30px;
+	padding: 10px 10px 0 0;
+}
+
+#stack {
+	float: left;
+	height: 30px;
+	width: 30px;
+	padding: 10px 10px 0 0;	
+}
+
+#push	{
+	clear: both;
+	height: 55px;
+}
+
+footer {
+	position: relative;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#contactcontent {
+	clear: both;
+	float: left;
+	text-align: left;
+	height: 450px;
+	width: 650px;
+	margin: 110px 0px 30px 10px;
+}
+
