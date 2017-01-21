@@ -2,13 +2,13 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	background: url(http://www.acegoals.com/wp-content/uploads/2015/01/webpage-background-image.jpg) no-repeat fixed 100%;
+	background-size: cover;
 }
 
 #nav {
 	clear: both;
 	height: 70px;
 	width: 960px;
-	background-color: #ccc;
 	position: absolute;
 	margin-top: 20px;
 }
@@ -18,40 +18,32 @@ body {
 	height: 30px;
 	width: 150px;
 	background-color: #4aaaa5;
-	padding: 20px 4px 0 4px;
-	margin: 20px 0 0 150px;
+	padding: 20px 4px 0 24px;
+	margin: 20px 0 0 130px;
 	color: #fff;
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
 #photo {
 	float: left;
-	margin-left: 0px 0px 10px 0px;
-	padding-left: 10px 
-	width:150px; 
+	margin: 5px 5px 10px 0px;
+	padding-left: 10px; 
+	width:180px; 
 	height:150px;
-}
-
-#text1 {
-	clear: both;
-	width: 90%;	
-	margin: 0 auto;
-	height: 3px;
-	background-color: #ccc;
 }
 
 #links {
 	float: right;
 	margin: 30px 330px 0px 150px;
-	color: black;
+	color: #fff;
 }
 
-#mainsection {
+.mainsection {
 	clear: both;
 	float: left;
 	text-align: left;
-	height: 450px;
+	height: 550px;
 	width: 650px;
 	margin: 110px 0px 30px 10px;
 	background-color: #ffffff; 
@@ -59,6 +51,10 @@ body {
 
 h1 {
 	margin-left: 30px;
+	margin-right: 30px;
+	border-bottom: 3px solid black;
+	color: #4aaaa5;
+	border-color: #4aaaa5;
 }
 
 .connect {
@@ -68,7 +64,8 @@ h1 {
 	margin-left: 20px;
 	margin-top: 177px;
 	padding: 0 0 70px 0;
-	background-color: #ffffff;
+	background-color: #fff;
+	color: #4aaaa5;
 }
 
 #line {
@@ -156,3 +153,73 @@ input[type=submit]:hover {
 	margin: 110px 0px 30px 10px;
 }
 
+#textarea {
+	width: 98%;
+}
+
+#hangman {
+	position: relative;
+	background-image: url(https://i.ytimg.com/vi/n4wnDH242tc/hqdefault.jpg);
+	background-size: 250px 120px, cover;
+	margin: 10px 0 10px 30px;
+	height: 130px;
+	width: 250px;
+	float: left;
+}
+
+#rpg {
+	position: relative;
+	background-image: url(http://vignette1.wikia.nocookie.net/southpark/images/2/2d/ReturnoftheFellowshiptotheTwoTowers07.jpg/revision/latest?cb=20100418180731);
+	background-size: 250px 120px, cover;
+	margin: 10px 30px 10px 0;
+	height: 130px;
+	width: 250px;
+	float: right;	
+}
+
+#trivia {
+	position: relative;	
+	clear: both;
+	background-image: url(https://imgflip.com/s/meme/Deadpool-Surprised.jpg);
+	background-size: 250px 120px, cover;
+	margin: 10px 0 10px 30px;
+	height: 130px;
+	width: 250px;	
+	float: left;
+}
+
+#rutgers {
+	position: relative;		
+	background-image: url(http://img.memecdn.com/anchorman_o_201523.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+	margin: 10px 30px 10px 0;
+	height: 130px;
+	width: 250px;
+	float: right;
+
+}
+
+#rockpaperscissors {
+	position: relative;	
+	clear: both;
+	background-image: url(http://lolsheaven.com/wp-content/uploads/2012/12/Rock-Paper-Scissors.png);
+	background-size: cover;
+	background-position: 50% 50%;
+	margin: 10px 0 0 30px;
+	height: 130px;
+	width: 250px;
+	float: left;
+}
+
+#absolute {
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 10px 0 10px 0;
+	opacity: 0.8;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #fff;
+}
