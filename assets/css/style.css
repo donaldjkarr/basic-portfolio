@@ -1,7 +1,7 @@
 body {
 	width: 960px;
 	margin: 0 auto;
-	background: url(http://www.acegoals.com/wp-content/uploads/2015/01/webpage-background-image.jpg) no-repeat fixed 100%;
+	background: url(http://blog.recursiveprocess.com/wp-content/uploads/2015/04/savedPicture9-4-2015-22241.png) no-repeat fixed 100%;
 	background-size: cover;
 }
 
@@ -11,6 +11,7 @@ body {
 	width: 960px;
 	position: absolute;
 	margin-top: 20px;
+	background-color: #ffffff;
 }
 
 #navname {
@@ -19,10 +20,11 @@ body {
 	width: 150px;
 	background-color: #4aaaa5;
 	padding: 20px 4px 0 24px;
-	margin: 20px 0 0 130px;
+	margin: 20px 0 0 60px;
 	color: #fff;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #photo {
@@ -35,8 +37,12 @@ body {
 
 #links {
 	float: right;
-	margin: 30px 330px 0px 150px;
+	margin: 30px 310px 0px 150px;
 	color: #fff;
+}
+
+#middle {
+	margin: 0 10px 0 10px;
 }
 
 .mainsection {
@@ -45,8 +51,9 @@ body {
 	text-align: left;
 	height: 550px;
 	width: 650px;
-	margin: 110px 0px 30px 10px;
-	background-color: #ffffff; 
+	margin: 110px 0px 30px 60px;
+	background-color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
 }
 
 h1 {
@@ -55,6 +62,13 @@ h1 {
 	border-bottom: 3px solid black;
 	color: #4aaaa5;
 	border-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+	padding: 0 10px 0 10px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
 }
 
 .connect {
@@ -62,8 +76,8 @@ h1 {
 	width: 20px
 	height: 100px;
 	margin-left: 20px;
-	margin-top: 177px;
-	padding: 0 0 70px 0;
+	margin-top: 110px;
+	padding: 0 0 50px 0;
 	background-color: #fff;
 	color: #4aaaa5;
 }
